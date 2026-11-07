@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "customer": "Олександр Петренко",
+    "city": "Київ",
+    "date": "2026-10-01",
+    "status": "paid",
+    "items": [
+      { "title": "Процесор AMD Ryzen 7 Raphael 7800X3D OEM", "price": 14000, "qty": 1 },
+      { "title": "Термопаста Arctic MX-4", "price": 400, "qty": 2 }
+    ]
+  },
+  {
+    "id": 2,
+    "customer": "Марія Коваленко",
+    "city": "Львів",
+    "date": "2026-10-03",
+    "status": "shipped",
+    "items": [
+      { "title": "Відеокарта Asus GeForce RTX 5050 Dual OC 8GB", "price": 23000, "qty": 1 }
+    ]
+  },
+  {
+    "id": 3,
+    "customer": "Іван Шевченко",
+    "city": "Київ",
+    "date": "2026-10-05",
+    "status": "new",
+    "items": [
+      { "title": "Оперативна пам'ять G.Skill Ripjaws V DDR4 1x16GB", "price": 6000, "qty": 2 },
+      { "title": "Kingston NV3 2280 SNV3S/1000G 1 TB", "price": 8000, "qty": 1 }
+    ]
+  },
+  {
+    "id": 4,
+    "customer": "Анна Бондаренко",
+    "city": "Одеса",
+    "date": "2026-10-08",
+    "status": "cancelled",
+    "items": [
+      { "title": "Блок живлення Deepcool PF PF600", "price": 2200, "qty": 1 }
+    ]
+  },
+  {
+    "id": 5,
+    "customer": "Максим Мельник",
+    "city": "Харків",
+    "date": "2026-10-10",
+    "status": "paid",
+    "items": [
+      { "title": "Материнська плата B550", "price": 4500, "qty": 1 },
+      { "title": "Корпус Vinga Linden", "price": 2000, "qty": 1 }
+    ]
+  },
+  {
+    "id": 6,
+    "customer": "Софія Ткаченко",
+    "city": "Дніпро",
+    "date": "2026-10-12",
+    "status": "shipped",
+    "items": [
+      { "title": "Монітор Asus TUF Gaming VG27AQ5A", "price": 8000, "qty": 1 }
+    ]
+  },
+  {
+    "id": 7,
+    "customer": "Дмитро Коваль",
+    "city": "Київ",
+    "date": "2026-10-14",
+    "status": "new",
+    "items": [
+      { "title": "Клавіатура механічна A-Jazz AK820 Pro ", "price": 3000, "qty": 1 },
+      { "title": "Миша ігрова Logitech G Pro X Superlight 2", "price": 5000, "qty": 1 }
+    ]
+  },
+  {
+    "id": 8,
+    "customer": "Олена Павленко",
+    "city": "Львів",
+    "date": "2026-10-15",
+    "status": "paid",
+    "items": [
+      { "title": "Навушники ігрові Logitech G Pro X 2 Lightspeed", "price": 5500, "qty": 1 }
+    ]
+  },
+  {
+    "id": 9,
+    "customer": "Андрій Бойко",
+    "city": "Одеса",
+    "date": "2026-10-18",
+    "status": "shipped",
+    "items": [
+      { "title": "Водяне охолодження Montech HyperFlow Silent 360 Black", "price": 4000, "qty": 1 }
+    ]
+  },
+  {
+    "id": 10,
+    "customer": "Катерина Савченко",
+    "city": "Харків",
+    "date": "2026-10-20",
+    "status": "cancelled",
+    "items": [
+      { "title": "Samsung 990 PRO MZ-V9P2T0BW 2 TB", "price": 18000, "qty": 2 }
+    ]
+  },
+  {
+    "id": 11,
+    "customer": "Артем Кравченко",
+    "city": "Запоріжжя",
+    "date": "2026-10-22",
+    "status": "paid",
+    "items": [
+      { "title": "Gigabyte Radeon RX 9060 XT GAMING OC 16G", "price": 37000, "qty": 1 }
+    ]
+  },
+  {
+    "id": 12,
+    "customer": "Вікторія Лисенко",
+    "city": "Київ",
+    "date": "2026-10-24",
+    "status": "new",
+    "items": [
+      { "title": "Комп'ютерне крісло Anda Seat Kaiser 3E XL Fabric", "price": 16000, "qty": 1 }
+    ]
+  },
+  {
+    "id": 13,
+    "customer": "Юрій Романюк",
+    "city": "Львів",
+    "date": "2026-10-25",
+    "status": "shipped",
+    "items": [
+      { "title": "Процесор Intel Core i5 Alder Lake i5-12400F OEM", "price": 7000, "qty": 1 },
+      { "title": "Материнська плата MSI PRO H610M-E DDR4", "price": 3000, "qty": 1 }
+    ]
+  },
+  {
+    "id": 14,
+    "customer": "Тетяна Олійник",
+    "city": "Дніпро",
+    "date": "2026-10-28",
+    "status": "paid",
+    "items": [
+      { "title": "Блок живлення Cougar Atlas Atlas 750", "price": 2400, "qty": 1 }
+    ]
+  },
+  {
+    "id": 15,
+    "customer": "Сергій Мельник",
+    "city": "Одеса",
+    "date": "2026-10-30",
+    "status": "shipped",
+    "items": [
+      { "title": "Ігровий монітор MSI MAG 255PXF", "price": 9000, "qty": 1 },
+      { "title": "кабель DisplayPort 2m", "price": 300, "qty": 2 }
+    ]
+  }
+]
