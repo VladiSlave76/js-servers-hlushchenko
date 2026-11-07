@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "title": "AMD Ryzen 7 5700X",
+    "category": "CPU",
+    "price": 7500.00,
+    "quantity": 15,
+    "date": "2026-07-11"
+  },
+  {
+    "id": 2,
+    "title": "Asus Radeon RX 9070 XT Prime OC 16GB",
+    "category": "GPU",
+    "price": 50000.00,
+    "quantity": 5,
+    "date": "2026-07-11"
+  },
+  {
+    "id": 3,
+    "title": "Kingston Fury Beast DDR5 2x16GB",
+    "category": "RAM",
+    "price": 29000.00,
+    "quantity": 30,
+    "date": "2026-07-11"
+  },
+  {
+    "id": 4,
+    "title": "SSD Samsung 980 PRO MZ-V8P1T0BW 1 TB",
+    "category": "Storage",
+    "price": 10000.00,
+    "quantity": 20,
+    "date": "2026-07-11"
+  },
+  {
+    "id": 5,
+    "title": "Chieftec VEGA M PPG-750-C",
+    "category": "PSU",
+    "price": 4200.00,
+    "quantity": 12,
+    "date": "2026-07-11"
+  },
+  {
+    "id": 6,
+    "title": "Intel Core i5-12400F",
+    "category": "CPU",
+    "price": 7000.00,
+    "quantity": 18,
+    "date": "2026-07-11"
+  },
+  {
+    "id": 7,
+    "title": "Asus GeForce RTX 5070 Dual OC",
+    "category": "GPU",
+    "price": 41000.00,
+    "quantity": 8,
+    "date": "2026-07-11"
+  },
+  {
+    "id": 8,
+    "title": "Corsair Vengeance RGB RS DDR5 2x16GB",
+    "category": "RAM",
+    "price": 21000.00,
+    "quantity": 14,
+    "date": "2026-07-11"
+  },
+  {
+    "id": 9,
+    "title": "SSD Kingston KC3000 SKC3000D/2048G",
+    "category": "Storage",
+    "price": 19000.00,
+    "quantity": 25,
+    "date": "2026-07-11"
+  },
+  {
+    "id": 10,
+    "title": "Chieftec Polaris PPS-750FC",
+    "category": "PSU",
+    "price": 4000.00,
+    "quantity": 10,
+    "date": "2026-07-11"
+  },
+  {
+    "id": 11,
+    "title": "AMD Ryzen 9 7900X",
+    "category": "CPU",
+    "price": 14000.00,
+    "quantity": 6,
+    "date": "2026-07-11"
+  },
+  {
+    "id": 12,
+    "title": "Asus GeForce RTX 5060 Dual OC 8GB",
+    "category": "GPU",
+    "price": 26500.00,
+    "quantity": 11,
+    "date": "2026-07-11"
+  },
+  {
+    "id": 13,
+    "title": "G.Skill Trident Z5 Neo RGB DDR5 2x16GB",
+    "category": "RAM",
+    "price": 40000.00,
+    "quantity": 9,
+    "date": "2026-07-11"
+  },
+  {
+    "id": 14,
+    "title": "Patriot Memory P400 Lite P400LP1KGM28H 1 TB",
+    "category": "Storage",
+    "price": 6800.00,
+    "quantity": 22,
+    "date": "2026-07-11"
+  },
+  {
+    "id": 15,
+    "title": "MSI MPG GS A850GS PCIE5",
+    "category": "PSU",
+    "price": 7400.00,
+    "quantity": 7,
+    "date": "2026-07-11"
+  },
+  {
+    "id": 16,
+    "title": "Intel Core i7-13700K",
+    "category": "CPU",
+    "price": 16000.00,
+    "quantity": 4,
+    "date": "2026-07-11"
+  },
+  {
+    "id": 17,
+    "title": "Asus GeForce RTX 5070 Ti Prime OC",
+    "category": "GPU",
+    "price": 71000.00,
+    "quantity": 3,
+    "date": "2026-07-11"
+  },
+  {
+    "id": 18,
+    "title": "G.Skill Trident Z RGB DDR4 2x16GB",
+    "category": "RAM",
+    "price": 14000.00,
+    "quantity": 0,
+    "date": "2026-07-11"
+  },
+  {
+    "id": 19,
+    "title": "WD Blue WD20SPZX 2TB HDD",
+    "category": "Storage",
+    "price": 10000.00,
+    "quantity": 16,
+    "date": "2026-07-11"
+  },
+  {
+    "id": 20,
+    "title": "Seasonic FOCUS GX ATX 3.1 FOCUS GX-1000 ATX 3.1",
+    "category": "PSU",
+    "price": 9000.00,
+    "quantity": 13,
+    "date": "2026-07-11"
+  }
+]
