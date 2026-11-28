@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог комплектуючих — Етап 4</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 820px; margin: 2rem auto; padding: 0 1rem; background: #121417; color: #e6edf3; }
+    h1 { margin-bottom: 0.25rem; }
+    .meta { color: #8b949e; margin-bottom: 1.5rem; }
+    .controls { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem; }
+    input, button { padding: 0.45rem 0.7rem; border-radius: 6px; border: 1px solid #30363d; background: #1c2128; color: #e6edf3; }
+    button { cursor: pointer; background: #238636; border-color: #2ea043; }
+    pre { background: #161b22; padding: 1rem; border-radius: 8px; overflow-x: auto; border: 1px solid #30363d; }
+  </style>
+</head>
+<body>
+  <h1>Каталог комплектуючих</h1>
+  <div class="meta">HTTP-сервер (модуль <code>http</code> та Express) · Етап 4</div>
+  <div class="controls">
+    <input id="category" placeholder="category (напр. CPU)">
+    <input id="minPrice" placeholder="minPrice">
+    <input id="maxPrice" placeholder="maxPrice">
+    <button id="loadBtn" type="button">Оновити /api/items</button>
+  </div>
+  <pre id="out">Завантаження...</pre>
+  <script>
+    async function loadItems() {
+      const params = new URLSearchParams();
+      const category = document.getElementById('category').value.trim();
+      const minPrice = document.getElementById('minPrice').value.trim();
+      const maxPrice = document.getElementById('maxPrice').value.trim();
+      if (category) params.set('category', category);
+      if (minPrice) params.set('minPrice', minPrice);
+      if (maxPrice) params.set('maxPrice', maxPrice);
+      const qs = params.toString() ? '?' + params.toString() : '';
+      const res = await fetch('/api/items' + qs);
+      const data = await res.json();
+      document.getElementById('out').textContent = JSON.stringify(data, null, 2);
+    }
+    document.getElementById('loadBtn').addEventListener('click', loadItems);
+    loadItems();
+  </script>
+</body>
+</html>
